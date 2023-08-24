@@ -160,5 +160,14 @@
       "category": "in-sale",
       "description": "Color : Blancas",
       "image": null
+   },
+   {
+      "id": 21,
+      "name": "Camiseta Selección Argentina",
+      "price": 54760,
+      "discount": 10,
+      "category": "in-sale",
+      "description": "Camiseta Selección Argentina",
+      "image": null
    }
 ]
