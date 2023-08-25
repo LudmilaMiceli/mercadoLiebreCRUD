@@ -2,8 +2,8 @@
    {
       "id": 1,
       "name": "Cafetera Moulinex Dolce Gusto Edited",
-      "price": 14500,
-      "discount": 50,
+      "price": 35500,
+      "discount": 40,
       "category": "visited",
       "description": "Cafetera Dolce Gusto Lumio. La cafetera Dolce Gusto Lumio es de variedad automática que ha llegado con un diseño radical al que nos tenía acostumbrados Dolce Gusto.En este post te contamos todo lo que necesitas saber sobre ella, desde sus características técnicas hasta la calidad de las cápsulas o price.",
       "image": "img-cafetera-moulinex.jpg"
@@ -84,7 +84,7 @@
       "id": 10,
       "name": "Mouse Inalámbrico Logitech M280",
       "description": "Uso más cómodo para la mano derecha gracias a la forma contorneada con recubrimiento de goma blanda. Duración de las pilas hasta 18 meses, gracias al diseño para ahorrar energía.El M280 entra automáticamente en estado de suspensión cuando no se está usando.",
-      "price": 1200,
+      "price": 21200,
       "discount": 10,
       "image": "img-mouse-logitech.jpg",
       "category": "visited"
@@ -164,10 +164,19 @@
    {
       "id": 21,
       "name": "Camiseta Selección Argentina",
-      "price": 54760,
+      "price": 64765,
       "discount": 10,
       "category": "in-sale",
       "description": "Camiseta Selección Argentina",
+      "image": null
+   },
+   {
+      "id": 22,
+      "name": "Mouse Inalambrico HAVIT",
+      "price": 7600,
+      "discount": 5,
+      "category": "visited",
+      "description": "Mouse con luces",
       "image": null
    }
 ]

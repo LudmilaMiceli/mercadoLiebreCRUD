@@ -81,12 +81,12 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 			}
 
-			fs.writeFileSync(path.join(__dirname, '../data/productsDataBase.json'), JSON.stringify(productsModify, null, 3))
+			/* fs.writeFileSync(path.join(__dirname, '../data/productsDataBase.json'),JSON.stringify(productsModify, null, 3)) */
 
 			return product
 		})
 
-		fs.writeFileSync(path.join(__dirname, '../data/productsDataBase.json'), JSON.stringify(products, null, 3))
+		fs.writeFileSync(path.join(__dirname, '../data/productsDataBase.json'), JSON.stringify(productsModify, null, 3))
 
 
 		return res.redirect('/products')
@@ -97,7 +97,7 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 		// Do the magic
 		const productsModify = products.filter(product => product.id !== +req.params.id)
 		
-		fs.writeFileSync(path.join(__dirname, '../data/productsDataBase.json'), JSON.stringify(products, null, 3))
+		fs.writeFileSync(path.join(__dirname, '../data/productsDataBase.JSON'), JSON.stringify(productsModify, null, 3))
 
 		return res.redirect('/products')
 	}
