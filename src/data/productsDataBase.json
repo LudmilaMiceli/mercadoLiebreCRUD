@@ -178,5 +178,14 @@
       "category": "visited",
       "description": "Mouse con luces",
       "image": null
+   },
+   {
+      "id": 23,
+      "name": "Estufa a gas",
+      "price": 1545,
+      "discount": 12,
+      "category": "in-sale",
+      "description": "Estufa",
+      "image": null
    }
 ]
